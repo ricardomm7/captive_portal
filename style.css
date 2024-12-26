@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0056b3;
+}
+.portal-container {
+    width: 90%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 150px;
+}
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 18px;
+}
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px); /* Certificar que o preenchimento não afeta a largura total */
+    padding: 10px 8px; /* Mais espaçamento interno */
+    margin: 0px 0; /* Espaçamento externo mais consistente */
+    border: 1px solid #ddd; /* Cor da borda mais suave */
+    border-radius: 8px; /* Bordas mais arredondadas */
+    font-size: 0.8rem; /* Texto mais visível */
+    color: #333; /* Melhor contraste de texto */
+    background-color: #fafafa; /* Fundo levemente diferenciado */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Efeito de profundidade sutil */
+    transition: all 0.3s ease; /* Animação suave ao interagir */
+}
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff; /* Realce azul ao foco */
+    background-color: #fff; /* Fundo branco puro ao foco */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Efeito de brilho ao foco */
+    outline: none; /* Remove outline padrão */
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.legal {
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 15px;
+}
+.legal a {
+    color: #007bff;
+    text-decoration: none;
+}
+.legal a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadora Captive Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="portal-container">
+        <div class="logo">
+            <img src="logo.png" alt="Operadora Logo">
+        </div>
+        <h1>Bem-vindo!</h1>
+        <p>Conecte-se à nossa rede para continuar navegando.</p>
+        <form id="captive-portal-form">
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Usuário" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" placeholder="Senha" required>
+            </div>
+            <button type="button" onclick="authenticateUser()">Conectar</button>
+        </form>
+        <div class="legal">
+            <p>Ao se conectar, você concorda com nossos <a href="#">Termos de Serviço</a> e <a href="#">Política de Privacidade</a>.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
